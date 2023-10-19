@@ -1,0 +1,14 @@
+/* CSS Externo con Selectores de Clase y PseudoClases */
+/* Selectores de clase */
+/* Etiquetas HTML: ul, li, button */
+/* Atributos CSS: Espaciado entre palabras */
+/* PseudoClases: nth-of-type(1):hover */
+
+.mi-clase {
+    word-spacing: 10px;
+}
+
+.mi-clase ul li:nth-of-type(1):hover {
+    color: red;
+}
+

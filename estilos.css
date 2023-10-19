@@ -1,0 +1,11 @@
+/* CSS Externo con Selectores de Identificación */
+/* Selectores de identificación */
+/* Etiquetas HTML: ul, li, select, option */
+/* Atributos CSS: border, position, z-index, cursor */
+
+#mi-selector {
+    border: 3px solid rgb(203, 20, 20);
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+}

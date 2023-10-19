@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evaluación de HTML y CSS</title>
+
+    <!-- Ejercicio 2 - CSS Interno -->
+    <style>
+        /* Selectores de etiqueta */
+        /* Etiquetas HTML: ul, li, table, thead , tbody, tr, td, th */
+        /* Atributos CSS: margin, padding, font-style, color , background-color */
+
+        ul {
+            margin: 20px;
+            padding: 10px;
+            background-color: lightgray;
+        }
+
+        li {
+            margin: 5px;
+            padding: 5px;
+            font-style: italic;
+            color: rgb(62, 62, 154);
+        }
+
+        table {
+            margin: 30px;
+            padding: 10px;
+            background-color: rgb(2, 255, 145);
+        }
+
+        th,
+        td {
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+
+    <!-- Ejercicio 3 - CSS Externo con Selectores de Identificación -->
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+
+    <!-- Ejercicio 4 - CSS Externo con Selectores de Clase y PseudoClases -->
+    <link rel="stylesheet" type="text/css" href="estilos2.css">
+
+</head>
+
+<body>
+
+    <!-- Ejercicio 1 - CSS Inline -->
+    <div style="text-align: center; background-color: rgb(50, 168, 195); padding: 20px; border-radius: 10px;">
+        <h1>Ejercicio 1</h1>
+        <img src="Captura de pantalla 2023-10-07 135838.png" alt="cupcake blanco y negro"
+            style="width: 200px; height: 200px; border-radius: 50%;">
+        <p style="color: white; font-family: Arial, sans-serif;">Cupcake en blanco y negro es útil en los dibujos animados de los años 1930</p>
+    </div>
+
+    <!-- Ejercicio 2 - CSS Interno -->
+    <div>
+        <h1>Evaluación M2 - Ejercicio 2</h1>
+        <h2>Lista de Ejemplo</h2>
+        <!-- Lista no ordenada (ul) -->
+        <ul>
+            <li>Clase 1: Lógica de programación</li>
+            <li>Clase 2: Introducción a la programación</li>
+            <li>Clase 3: Metodologías Ágiles para la programación</li>
+        </ul>
+    
+        <!-- Tabla (table) -->
+        <table>
+            <thead>
+                <tr>
+                    <th>DATO</th>
+                    <th>CLASE 1: LP</th>
+                    <th>CLASE 2: IP</th>
+                    <th>CLASE 3: MA</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Profesor</td>
+                    <td>Jhon Fredy Valencia Gómez</td>
+                    <td>Jhon Fredy Valencia Gómez</td>
+                    <td>Jared Lee/td>
+                </tr>
+                <tr>
+                    <td>Día de clase</td>
+                    <td>Martes</td>
+                    <td>Jueves</td>
+                    <td>Jueves</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Ejercicio 3 - CSS Externo con Selectores de Identificación -->
+    <div id="mi-selector">
+        <ul>
+            <li>Elemento 1</li>
+            <li>Elemento 2</li>
+        </ul>
+        <select>
+            <option value="1">Opción 1</option>
+            <option value="2">Opción 2</option>
+        </select>
+    </div>
+
+    <!-- Ejercicio 4 - CSS Externo con Selectores de Clase y PseudoClases -->
+    <div class="mi-clase">
+        <ul>
+            <li>Elemento 1</li>
+            <li>Elemento 2</li>
+        </ul>
+        <button>Botón</button>
+    </div>
+
+</body>
+
+</html>
